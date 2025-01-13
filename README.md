@@ -43,7 +43,7 @@ This project is an AI-powered chatbot designed to interact with users and answer
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/zeotap-chatbot.git
+   git clone https://github.com/sivabalaji29/Chatbot-for-CDP.git
    cd zeotap-chatbot
 
 # Install Dependencies:
