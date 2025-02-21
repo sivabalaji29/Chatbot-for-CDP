@@ -2,7 +2,7 @@
 
 # Zeotap Documentation Chatbot
 
-This project is an AI-powered chatbot designed to interact with users and answer questions about documentation for various Customer Data Platform (CDP) services. It uses FastAPI for backend API services, FAISS for similarity search, LangChain for text management, Azure OpenAI for natural language processing, and Streamlit for a user-friendly interface.
+This project is an AI-powered chatbot designed to interact with users and answer questions about documentation for various Customer Data Platform (CDP) services. It uses FastAPI for backend API services, FAISS for similarity search, LangChain for text management,  OpenAI for natural language processing, and Streamlit for a user-friendly interface.
 
 ---
 
@@ -25,7 +25,6 @@ This project is an AI-powered chatbot designed to interact with users and answer
 **Streamlit:** For building an interactive chatbot interface.
 **FAISS:** For efficient similarity search in vectorized text.
 **LangChain:** For preprocessing and managing text data.
-**Azure OpenAI:** For natural language understanding and response generation.
 **BeautifulSoup:** For parsing and cleaning HTML documents.
 
 
@@ -36,7 +35,6 @@ This project is an AI-powered chatbot designed to interact with users and answer
 ### Prerequisites
 
 - Python 3.8 or higher
-- Access to Azure OpenAI services
 - Required Python packages (see `requirements.txt`)
 
 ### Steps
@@ -49,13 +47,7 @@ This project is an AI-powered chatbot designed to interact with users and answer
 # Install Dependencies:
   pip install -r requirements.txt
 
-# Set Environment Variables: 
-Configure the following environment variables (e.g., in a .env file):
 
-AZURE_OPENAI_API_KEY
-AZURE_OPENAI_ENDPOINT
-AZURE_OPENAI_API_VERSION
-AZURE_OPENAI_CHAT_DEPLOYMENT_NAME
 
 # Step 1: Fetch Documentation
 Run the fetch_documentation function to download and save the CDP documentation to the db folder:
